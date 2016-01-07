@@ -56,7 +56,7 @@ namespace ESClient.Controllers
 
         public ActionResult Login()
         {
-            ViewBag.returnURrl = "returnUrl";
+            ViewBag.returnURrl = "http://webclientcongnghehiendai.apphb.com/";
             return View();
         }
 
